@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- Adicione o link do arquivo JS -->
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form id="formOrcamento" action="copia_processa.php" method="POST">
+            <a href="https://api.whatsapp.com/send?phone=5511995424085&text=Se%20precisar%20de%20mais%20alguma%20informa%C3%A7%C3%A3o%20conte%20comigo.">
+                <figure>
+                    <img src="img/jatochegando_ia_resized_v2.jpg" alt="Logo da Transportadora Já Tô Chegando - Fretes e Mudanças Rápidas" class="logo-jtchgnd">
+                </figure>
+            </a>
+            <h1><b>orçamento</b></h1>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            <input type="text" name="origem" id="origem" placeholder="Digite endereço origem" required>
+            <input type="text" name="destino" id="destino" placeholder="Digite endereço destino" required>
+            <h3><b>moveis</b></h3>
+            <label><input type="checkbox" class="item" name="itens[]" value="tv">tv</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="puff">puff</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="sofa">sofa</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="mesa">mesa</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="fogao">fogao</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="berço">berço</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="rack">rack</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="estante">estante</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="comoda">comoda</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="cadeiras">cadeiras</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="aparador">aparador</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="guarda roupa">G. Roupas</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="geladeira">geladeira</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="cama casal">cama casal</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="cama solteiro">cama solteiro</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="maquina de lavar">maq. lavar</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="cabeceira">cabeceira</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="criado mudo">criado mudo</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="painel de tv">painel de tv</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="sapateira">sapateira</label><br>
+            <label><input type="checkbox" class="item" name="itens[]" value="botijao de gas">botijao de gas</label><br>
+            <button class="zap" type="submit" onclick="enviar_no_zap()">Enviar orçamento no WhatsApp</button>
+            <section class="redes-sociais">
+                <a href="https://www.facebook.com/share/163ndAoFd6/" target="_blank" rel="noopener">
+                    <figure>
+                        <img src="img/facebook.jpeg" alt="imagem do Facebook">
+                        <figcaption>Facebook</figcaption>
+                    </figure>
+                </a>
+                <h2 class="redes_siciais" ><b>VEM COM PAI</b></h2>
+                <a href="https://www.instagram.com/ja_to_chegando_transportadora?igsh=c2Fxc205ODc4MjBk" target="_blank" class="social-icon">
+                    <figure>
+                        <img src="img/instagram-logo.jpg" alt="Instagram">
+                        <figcaption>Instagram</figcaption>
+                    </figure>
+                </a>
+            </section>
+        </form>
+    </section>
+</body>
+</html>
