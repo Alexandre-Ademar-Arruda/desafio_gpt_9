@@ -1,5 +1,7 @@
+
 document.getElementById("formOrcamento").addEventListener("submit", function (e) {
     e.preventDefault(); // Impede o envio imediato
+
 
     const nome = document.getElementById("nome").value;
     const origem = document.getElementById("origem").value;
@@ -24,6 +26,4 @@ document.getElementById("formOrcamento").addEventListener("submit", function (e)
     // Exibe mensagem de "Obrigado" após o envio do orçamento
     alert("Obrigado! Seu orçamento foi enviado com sucesso. Aguarde nosso retorno!");
 });
-
-
 
