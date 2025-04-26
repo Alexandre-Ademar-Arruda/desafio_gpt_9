@@ -1,4 +1,3 @@
-
 document.getElementById("formOrcamento").addEventListener("submit", function (e) {
     e.preventDefault(); // Impede o envio imediato
 
@@ -14,15 +13,17 @@ document.getElementById("formOrcamento").addEventListener("submit", function (e)
         return;
     }
 
-    // Crie a mensagem formatada
     const mensagem = `Olá!\nQuero um orçamento para mudança:\n🧑 Nome: ${nome}\n📍 Origem: ${origem}\n📦 Destino: ${destino}\n📋 LISTA DE ITENS:\n${moveis}\n\nℹ️ Se precisar de mais alguma informação conte comigo.\n`;
     
     const numeroWhatsApp = "5511995424085";
     const linkZap = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`;
 
-    // Submeta o formulário manualmente após gerar o zap
-    this.submit(); // Envia o formulário
-    window.open(linkZap, "_blank"); // Abre o WhatsApp
+    // Abre o WhatsApp
+    window.open(linkZap, "_blank");
+
+    // Exibe mensagem de "Obrigado" após o envio do orçamento
+    alert("Obrigado! Seu orçamento foi enviado com sucesso. Aguarde nosso retorno!");
 });
+
 
 

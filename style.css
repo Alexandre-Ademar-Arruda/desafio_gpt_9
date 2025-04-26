@@ -38,11 +38,12 @@ section .redes-sociais{
 /*================================================*/
 button{
     width: 100%;
-    border: 2px solid #d2d2d2;
+    border: 2px solid rgb(55, 165, 55);
     margin: 2px;
     text-align: start;
     padding: 2px;
     border-radius: 2px;
+    background-color: green;
 }
 /*================================================*/
 input[type="checkbox"] {

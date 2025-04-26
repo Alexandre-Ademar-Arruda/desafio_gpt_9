@@ -1,0 +1,53 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 2a0a646..de2abcb 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -20,27 +20,27 @@[m
+             <input type="text" name="origem" id="origem" placeholder="Digite endereço origem" required>[m
+             <input type="text" name="destino" id="destino" placeholder="Digite endereço destino" required>[m
+             <h3><b>moveis</b></h3>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="tv">tv</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="puff">puff</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="sofa">sofa</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="mesa">mesa</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="fogao">fogao</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="berço">berço</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="rack">rack</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="estante">estante</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="comoda">comoda</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="cadeiras">cadeiras</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="aparador">aparador</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="guarda roupa">G. Roupas</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="geladeira">geladeira</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="cama casal">cama casal</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="cama solteiro">cama solteiro</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="maquina de lavar">maq. lavar</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="cabeceira">cabeceira</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="criado mudo">criado mudo</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="painel de tv">painel de tv</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="sapateira">sapateira</label><br>[m
+[31m-            <label><input type="checkbox" class="item" name="itens[]" value="botijao de gas">botijao de gas</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="tv">tv</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="puff">puff</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="sofa">sofa</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="mesa">mesa</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="fogao">fogao</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="berço">berço</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="rack">rack</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="estante">estante</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="comoda">comoda</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="cadeiras">cadeiras</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="aparador">aparador</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="guarda roupa">G. Roupas</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="geladeira">geladeira</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="cama casal">cama casal</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="cama solteiro">cama solteiro</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="maquina de lavar">maq. lavar</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="cabeceira">cabeceira</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="criado mudo">criado mudo</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="painel de tv">painel de tv</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="sapateira">sapateira</label><br>[m
+[32m+[m[32m            <label><input type="checkbox" class="item-movel" name="itens[]" value="botijao de gas">botijao de gas</label><br>[m
+             <button class="zap" type="submit" onclick="enviar_no_zap()">Enviar orçamento no WhatsApp</button>[m
+             <section class="redes-sociais">[m
+                 <a href="https://www.facebook.com/share/163ndAoFd6/" target="_blank" rel="noopener">[m
