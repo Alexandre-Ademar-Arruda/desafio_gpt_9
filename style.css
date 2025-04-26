@@ -1,0 +1,110 @@
+
+section .redes-sociais{
+    max-width: 230px;
+     justify-content: center;
+     
+ }
+ /*================================================*/
+ .redes-sociais h2 {
+     white-space: nowrap;
+     font-size: 1rem;
+     text-align: center;
+     margin: 0;
+     flex: 1;
+ }
+ /*================================================*/
+ .redes-sociais {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 10px; /* Espaço entre os links */
+ }
+ /*================================================*/
+ .redes-sociais a {
+     text-decoration: none;
+ }
+ /*================================================*/
+ .redes-sociais img {
+     margin-top: 0;
+     width: 30px; /* Ajusta o tamanho das imagens para caberem em telas menores */
+     height: 30px;
+ }
+ /*================================================*/
+ .redes-sociais figcaption {
+     text-align: center;
+     font-size: 12px; /* Mantém o texto legível em dispositivos móveis */
+     color: #333;
+ }
+/*================================================*/
+button{
+    width: 100%;
+    border: 2px solid #d2d2d2;
+    margin: 2px;
+    text-align: start;
+    padding: 2px;
+    border-radius: 2px;
+}
+/*================================================*/
+input[type="checkbox"] {
+    width: auto;
+}
+/*================================================*/
+h3 {
+    text-transform: uppercase;
+}
+/*================================================*/
+h2{
+    text-transform: uppercase;
+    border: nome;
+}
+/*================================================*/
+a img {
+    width: 100%;
+    max-width: 330px;
+    padding-top: 5px;
+}
+/*================================================*/
+form {
+    width: 300px;
+    height: auto;
+    border: 20px solid #202020;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+/*================================================*/
+h1{
+    text-transform: uppercase;
+    border: nome;
+}
+/*================================================*/
+input[type="checkbox"], input[type="text"]::placeholder{
+    color: #202020 ; 
+    margin-right: 10px;
+}
+/*================================================*/
+input[type="text"]{
+    width: 100%;
+}
+/*================================================*/
+body, h1, h2, h3, form, img, label{
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #d2d2d2;
+    background: #4d4d4d ;
+}
+/*================================================*/
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: c;
+}
+/*================================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
