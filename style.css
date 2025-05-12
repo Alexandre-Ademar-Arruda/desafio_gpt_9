@@ -36,6 +36,11 @@ section .redes-sociais{
      color: #333;
  }
 /*================================================*/
+button:hover {
+    background-color: rgb(24, 160, 24);
+    letter-spacing: 1px;
+    color: white;
+}
 button{
     width: 100%;
     border: 2px solid rgb(55, 165, 55);

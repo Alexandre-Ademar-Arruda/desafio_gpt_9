@@ -18,6 +18,7 @@ document.getElementById("formOrcamento").addEventListener("submit", function (e)
     const mensagem = `Olá!\nQuero um orçamento para mudança:\n🧑 Nome: ${nome}\n📍 Origem: ${origem}\n📦 Destino: ${destino}\n📋 LISTA DE ITENS:\n${moveis}\n\nℹ️ Se precisar de mais alguma informação conte comigo.\n`;
     
     const numeroWhatsApp = "5511995424085";
+    
     const linkZap = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`;
 
     // Abre o WhatsApp
